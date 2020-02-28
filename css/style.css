@@ -480,6 +480,20 @@ select.selectmenu {
   max-width: none;
 }
 
+.proizvod img {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  max-width: 60%;
+  margin-left: 25%;
+  margin-right: 15%;
+  
+}
+
+h6 .text-proizvoda .proizvod1{
+  font-size: 12px;
+}
+
 .nivo-main-image {
   display: block !important;
   position: relative !important;
@@ -700,7 +714,7 @@ section.callaction {
 
 #content img {
   max-width: 100%;
-  height: auto;
+  height: 110px;
 }
 
 /* --- Call to action --- */
