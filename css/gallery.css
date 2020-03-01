@@ -1,0 +1,131 @@
+
+  #container {
+    max-width: 850px;
+    margin: 60px auto;
+    padding: 0px 15px;
+  }
+  
+  /*
+  
+  ######################################
+    MAIN SLIDER VIEWING AREA SETUP
+  ######################################
+  
+  */
+  
+  .gallery {
+    background:  #ffffff;
+    padding: 10px;
+  }
+  
+  .main-slides {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .main-slides img {
+    width: 100%;
+    height: 450px;
+    
+  }
+  
+  
+  
+  .main-slides > .gallery-slide {
+    display: none;
+  }
+  
+  .main-slides > .gallery-slide:nth-child(1) {
+    display: block;
+  }
+  
+  /*
+  
+  ######################################
+    SLIDER CONTROLLER BUTTONS SETUP
+  ######################################
+  
+  */
+  
+  .slider-controller-button {
+    position: absolute;
+    background-color: rgba(199, 194, 194, 0.6);
+    border: 2px solid #ffffff;
+    font-size: 45px;
+    color: white;
+    padding: 12px;
+    display: none;
+    cursor: pointer;
+  }
+  
+  .previous-slide-button {
+    left: 15px;
+  }
+  
+  .next-slide-button {
+    right: 15px;
+  }
+  
+  /*
+  
+  ######################################
+    UPTOP SLIDER COUNTER
+  ######################################
+  
+  */
+  
+  .slides-counter {
+    position: absolute;
+    font-family: 'Saira Semi Condensed', sans-serif;
+    top: 10px;
+    left: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #cfcece;
+  }
+  
+  /*
+  
+  ######################################
+    THUMBNAIL IMAGES SETUP & CONFIGURATION
+  ######################################
+  
+  */
+  
+  .thumbnail-slides {
+    background-color: #ffffff;
+    margin-top: 8px;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .thumbnail-slides > img {
+    cursor: pointer;
+    margin-right: 1px;
+    margin-left: 1px;
+    padding: 3px;
+   
+  }
+  
+  
+  
+  @media only screen and (max-width: 700px) {
+
+    #container {
+        max-width: 850px;
+        margin: 60px auto;
+        padding: 0px 15px;
+      }
+
+      .main-slides img {
+        width: 100%;
+        height: 210px;
+        
+      }
+
+  }
